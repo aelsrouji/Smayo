@@ -24,7 +24,7 @@ jobs:
           java-version: '21.0.2'
           distribution: 'microsoft'
 
-      - name: Build with Maven
+      - name: Build  env 
         run: mvn clean install
 
       - name: Upload artifact for deployment job
